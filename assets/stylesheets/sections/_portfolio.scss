@@ -1,0 +1,23 @@
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    margin-bottom: 42px;
+  }
+}
+
+.portfolio-content {
+  position: relative;
+}
+
+.laptop {
+  z-index: 1000;
+  height: 348px;
+  width: 625px;
+  position: absolute;
+  top: calc(50% - 172px);
+  left: calc(50% - 308px);
+}

@@ -1,0 +1,38 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+
+// External libraries
+// @import "bootstrap/scss/bootstrap";
+// @import "font-awesome-sprockets";
+
+// Components
+@import "components/preloader";
+@import "components/navbar";
+@import "components/slider";
+
+// Sections
+@import "sections/about";
+@import "sections/portfolio";
+@import "sections/skills";
+@import "sections/main";
+
+// Prevent defaults
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eee;
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headers-font;
+}
