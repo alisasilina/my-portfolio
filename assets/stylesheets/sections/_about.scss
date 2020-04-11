@@ -4,6 +4,7 @@
   justify-content: center;
   height: 100vh;
   text-align: center;
+  // border-bottom: 7px dotted #F5F5F5;
   h2 {
     margin-bottom: 16px;
   }
@@ -22,8 +23,7 @@
 .tasks {
   display: flex;
   margin: auto;
-  width: 65%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   img {
     width: 150px;
     margin-bottom: 12px;
