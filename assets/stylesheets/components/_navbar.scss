@@ -1,15 +1,70 @@
+// Mobile portrait
+@media (max-width: 768px) {
+  #navbar {
+    display: block;
+    background: #000;
+    height: 48px;
+  }
+
+  #navbar .navbar-list,
+  #navbar > input {
+    display: none;
+  }
+
+  #navbar > label {
+    display: block;
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    width: 36px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  #navbar > input:checked + .navbar-list {
+    display: block;
+    clear: both;
+    top: 36px;
+    position: relative;
+    background: #000;
+    color: #fff;
+  }
+
+  #navbar ul li {
+    display: block;
+    padding: 12px 10px;
+  }
+
+  #navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+// end
+
+
 #navbar {
   z-index: 2000;
     list-style:none;
     display:inline;
     padding:7px 7px;
-    // background: transparent;
     position:fixed;
     transition: background-color 0.5s ease-out;
     padding: 24px 6px 18px;
     li {
       display: inline;
       padding: 10px 10px;
+    }
+    label, input {
+      display: none;
     }
 }
 

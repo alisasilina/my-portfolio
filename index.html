@@ -37,13 +37,19 @@
     </div>
 
     <!-- Navbar -->
-    <div id="navbar" class="nav-container pullDown">
-      <a alt="home" href='#home'>Home</a>
-      <a alt="about" href='#about'>About</a>
-      <a alt="skills" href='#skills'>Skills</a>
-      <a alt="portfolio" href='#portfolio'>Portfolio</a>
-      <a alt="contact" href='#contact'>Contact</a>
-    </div>
+    <nav id="navbar" class="nav-container pullDown" aria-label='Navbar'>
+
+      <label for="toggle-mobile-menu" aria-label="Menu">&#9776;</label>
+      <input id="toggle-mobile-menu" type="checkbox" />
+
+      <div class='navbar-list'>
+        <a alt="home" href='#home'>Home</a>
+        <a alt="about" href='#about'>About</a>
+        <a alt="skills" href='#skills'>Skills</a>
+        <a alt="portfolio" href='#portfolio'>Portfolio</a>
+        <a alt="contact" href='#contact'>Contact</a>
+      </div>
+    </nav>
 
     <!-- About -->
     <div class='about-section' id='about'>
