@@ -35,6 +35,23 @@
   }
 }
 
+.cv {
+  font-size: 18px;
+  color: white;
+  background: $blue;
+  border-radius: 10px;
+  padding: 8px 24px;
+  i {
+    margin-right: 6px;
+    font-size: 22px;
+  }
+  &:hover {
+    background: $middle-blue;
+    text-decoration: none;
+    color: white;
+  }
+}
+
 @media (max-width: 768px) {
   .about-section {
     p {

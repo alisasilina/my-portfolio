@@ -480,6 +480,20 @@ div.highlightTextIn a:before {
     width: 140px;
     margin-bottom: 12px; }
 
+.cv {
+  font-size: 18px;
+  color: white;
+  background: #81CEDB;
+  border-radius: 10px;
+  padding: 8px 24px; }
+  .cv i {
+    margin-right: 6px;
+    font-size: 22px; }
+  .cv:hover {
+    background: #5ab3d3;
+    text-decoration: none;
+    color: white; }
+
 @media (max-width: 768px) {
   .about-section p {
     width: 100%;
