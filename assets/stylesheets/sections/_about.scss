@@ -16,6 +16,7 @@
 }
 
 .about-content {
+  border-radius: 9px;
   padding: 42px 50px;
   background: linear-gradient(-30deg, rgba(255,255,255,0.8) 0%, rgba(238,238,238,1) 25%, rgba(238,238,238,1) 50%, rgba(238,238,238,1) 75%, rgba(255,255,255,0.8) 100%);
 }
@@ -24,8 +25,12 @@
   display: flex;
   margin: auto;
   justify-content: space-evenly;
+  h5 {
+    color: rgba(0,0,0,0.6);
+    font-size: 18px;
+  }
   img {
-    width: 150px;
+    width: 140px;
     margin-bottom: 12px;
   }
 }

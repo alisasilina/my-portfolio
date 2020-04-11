@@ -1,23 +1,108 @@
+// .portfolio-section {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100vh;
+//   align-items: center;
+//   justify-content: center;
+//   h2 {
+//     margin-bottom: 42px;
+//   }
+// }
+
+// .portfolio-content-laptop {
+//   position: relative;
+// }
+
+// .laptop {
+//   z-index: 1000;
+//   height: 348px;
+//   width: 625px;
+//   position: absolute;
+//   top: calc(50% - 172px);
+//   left: calc(50% - 308px);
+// }
+
+// .phone-container {
+//   padding-top: 100px;
+// }
+
+// .phone {
+//   z-index: 1000;
+//   height: 600px;
+//   position: absolute;
+//   top: calc(50% - 172px);
+//   left: calc(50% - 308px);
+// }
+
+// .mobile-slider {
+//   img {
+//     height: 600px;
+//   }
+// }
+
 .portfolio-section {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  h2 {
+  h2:nth-child(1) {
+    text-align: center;
     margin-bottom: 42px;
+    padding-top: 96px;
   }
 }
 
 .portfolio-content {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.laptop {
-  z-index: 1000;
-  height: 348px;
-  width: 625px;
+.portfolio-element {
+  // height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+
+  img {
+    height: 38px;
+  }
+  .mockup {
+    height: auto;
+    width: 600px;
+  }
+  .sf {
+    height: 42px;
+    margin-right: 8px;
+  }
+}
+
+.portfolio-element-description {
+  padding: 24px 32px;
+  border-radius: 6px;
+  background: linear-gradient(-30deg, rgba(255,255,255,0.8) 0%, rgba(238,238,238,1) 25%, rgba(238,238,238,1) 50%, rgba(238,238,238,1) 75%, rgba(255,255,255,0.8) 100%);
+}
+
+.portfolio-element-header {
+  position: relative;
+  margin-bottom: 24px;
+  h3 {
+    margin: 0;
+    color: #325672;
+  }
+}
+
+.lang {
   position: absolute;
-  top: calc(50% - 172px);
-  left: calc(50% - 308px);
+  display: flex;
+  top: 0;
+  right: 12px;
+  align-items: center;
+  img {
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+  }
+  h4 {
+    font-size: 18px;
+    margin: 0;
+  }
 }

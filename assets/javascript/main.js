@@ -60,15 +60,32 @@ jQuery(document).ready(function ($) {
             $('._slider ul').css('left', '');
         });
     };
-
-    $('._slider_prev').click(function () {
-        moveLeft();
-        return false;
-    });
-
-    $('._slider_next').click(function () {
-        moveRight();
-        return false;
-    });
-
 });
+
+// Carousel (Bootstrap)
+// $('.carousel').carousel({
+//   interval: 2000
+// })
+
+// Owl Carousel
+// $(document).ready(function(){
+//   $(".owl-carousel-1").owlCarousel({
+//     items:4,
+//     loop:true,
+//     margin:10,
+//     autoplay:true,
+//     autoplayTimeout:3000,
+//     autoplayHoverPause:true
+//   });
+// });
+
+// $(document).ready(function(){
+//   $(".owl-carousel-2").owlCarousel({
+//     items:4,
+//     loop:true,
+//     margin:10,
+//     autoplay:true,
+//     autoplayTimeout:3000,
+//     autoplayHoverPause:true
+//   });
+// });
