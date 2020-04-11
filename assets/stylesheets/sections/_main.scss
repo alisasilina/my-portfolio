@@ -22,9 +22,30 @@
     }
     h5 {
       color: #fff;
-      background: #abc8e6;
+      background: $light-blue;
       font-size: 16px;
       padding: 2px 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    img {
+      height: 62vh;
+      position: absolute;
+      bottom: 0;
+      right: -6px;
+    }
+  }
+  .main-header {
+    left: 10% !important;
+    top: 12% !important;
+    h5 {
+      background: transparent !important;
+      color: $blue !important;
+      padding: 4px 0 !important;
+      width: 180px !important;
     }
   }
 }

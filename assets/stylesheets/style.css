@@ -66,8 +66,9 @@ body {
   z-index: 2000;
   list-style: none;
   display: inline;
-  padding: 7px 7px;
   position: fixed;
+  top: 0;
+  right: 0;
   transition: background-color 0.5s ease-out;
   padding: 24px 6px 18px; }
   #navbar li {
@@ -78,9 +79,6 @@ body {
   background: #eee; }
 
 .nav-container {
-  position: fixed;
-  top: 0;
-  right: 0;
   font-family: Raleway;
   margin: 0 auto;
   width: 100%;
@@ -395,6 +393,18 @@ div.highlightTextIn a {
 div.highlightTextIn a:before {
   transform: scale(1.2); }
 
+@media (max-width: 768px) {
+  #navbar {
+    padding: 16px 0 12px 0;
+    background: #fafafa; }
+
+  .nav-container {
+    text-align: center; }
+    .nav-container a {
+      font-size: 18px; }
+
+  div.pullDown a:before {
+    background: transparent; } }
 ._slider {
   position: relative;
   overflow: hidden;
@@ -466,6 +476,36 @@ div.highlightTextIn a:before {
     width: 150px;
     margin-bottom: 12px; }
 
+@media (max-width: 768px) {
+  .about-section p {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 32px; }
+  .about-section h2:nth-child(1) {
+    padding-top: 70px; }
+  .about-section h2:nth-child(2) {
+    margin-bottom: 18px; }
+
+  .about-content {
+    padding: 24px 42px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background: transparent; }
+
+  .tasks {
+    margin: 0;
+    justify-content: space-between; }
+    .tasks div {
+      width: 110px; }
+    .tasks h4 {
+      font-size: 18px; }
+    .tasks img {
+      width: 70px; } }
 .portfolio-section {
   display: flex;
   flex-direction: column;
@@ -557,6 +597,21 @@ div.highlightTextIn a:before {
       font-size: 16px;
       padding: 2px 10px; }
 
+@media (max-width: 768px) {
+  .main-section img {
+    height: 62vh;
+    position: absolute;
+    bottom: 0;
+    right: -6px; }
+
+  .main-header {
+    left: 10% !important;
+    top: 12% !important; }
+    .main-header h5 {
+      background: transparent !important;
+      color: #90aed5 !important;
+      padding: 4px 0 !important;
+      width: 180px !important; } }
 * {
   margin: 0;
   padding: 0;
