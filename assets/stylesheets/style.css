@@ -62,47 +62,6 @@ body {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
-@media (max-width: 768px) {
-  #navbar {
-    display: block;
-    background: #000;
-    height: 48px; }
-
-  #navbar .navbar-list,
-  #navbar > input {
-    display: none; }
-
-  #navbar > label {
-    display: block;
-    font-size: 36px;
-    color: #fff;
-    position: absolute;
-    right: 20px;
-    width: 36px;
-    padding: 0;
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
-
-  #navbar > input:checked + .navbar-list {
-    display: block;
-    clear: both;
-    top: 36px;
-    position: relative;
-    background: #000;
-    color: #fff; }
-
-  #navbar ul li {
-    display: block;
-    padding: 12px 10px; }
-
-  #navbar a {
-    text-decoration: none;
-    color: #fff; } }
 #navbar {
   z-index: 2000;
   list-style: none;
@@ -114,8 +73,6 @@ body {
   #navbar li {
     display: inline;
     padding: 10px 10px; }
-  #navbar label, #navbar input {
-    display: none; }
 
 .scroll {
   background: #eee; }
@@ -529,52 +486,6 @@ div.highlightTextIn a:before {
   top: calc(50% - 172px);
   left: calc(50% - 308px); }
 
-@media (max-width: 768px) {
-  .skills-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    padding: 100px; }
-    .skills-section h2 {
-      margin-bottom: 32px; }
-
-  .skills-content {
-    padding: 60px;
-    width: 75%;
-    background: linear-gradient(-30deg, rgba(255, 255, 255, 0.8) 0%, #eeeeee 25%, #eeeeee 50%, #eeeeee 75%, rgba(255, 255, 255, 0.8) 100%); }
-
-  .skills-list {
-    display: flex;
-    justify-content: space-between; }
-
-  .skills-subsection {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
-    .skills-subsection h4 {
-      margin: 0 auto 12px; }
-    .skills-subsection div {
-      display: flex !important;
-      align-items: center !important;
-      margin-bottom: 8px; }
-    .skills-subsection li {
-      list-style-type: none; }
-    .skills-subsection li:before {
-      font-family: 'FontAwesome';
-      content: '\f105';
-      margin: 0 5px 0 -15px;
-      color: #9e9e9e; }
-
-  .skill-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .skill-title img {
-      height: 70px;
-      margin-bottom: 12px; } }
 .skills-section {
   display: flex;
   flex-direction: column;
@@ -621,43 +532,31 @@ div.highlightTextIn a:before {
     height: 70px;
     margin-bottom: 12px; }
 
-@media (min-width: 1024px) {
-  .main-section {
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    position: relative; }
-    .main-section img {
-      height: 90vh; }
-
-  .main-header {
+.main-section {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  position: relative; }
+  .main-section img {
+    height: 90vh; }
+  .main-section .main-header {
     position: absolute;
     left: 49%;
     top: 40%; }
-    .main-header h1 {
+    .main-section .main-header h1 {
       font-size: 60px;
       letter-spacing: 10px;
       color: #9e9e9e;
       text-transform: uppercase;
       font-weight: lighter; }
-    .main-header h3 {
+    .main-section .main-header h3 {
       font-size: 28px; }
-    .main-header h5 {
+    .main-section .main-header h5 {
       color: #fff;
       background: #abc8e6;
       font-size: 16px;
-      padding: 2px 10px; } }
-@media (max-width: 768px) {
-  .main-section img {
-    height: 60vh;
-    position: absolute;
-    bottom: 0; }
+      padding: 2px 10px; }
 
-  .main-header {
-    left: 11%;
-    top: 10%; }
-    .main-header h5 {
-      display: none; } }
 * {
   margin: 0;
   padding: 0;

@@ -1,133 +1,72 @@
-// Mobile Portrait
-@media (max-width: 768px) {
-  .skills-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    padding: 100px;
-    // border-bottom: 7px dotted #F5F5F5;
-    h2 {
-      margin-bottom: 32px;
-    }
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 100px;
+  // border-bottom: 7px dotted #F5F5F5;
+  h2 {
+    margin-bottom: 32px;
   }
+}
 
-  .skills-content {
-    padding: 60px;
-    width: 75%;
-    background: linear-gradient(-30deg, rgba(255,255,255,0.8) 0%, rgba(238,238,238,1) 25%, rgba(238,238,238,1) 50%, rgba(238,238,238,1) 75%, rgba(255,255,255,0.8) 100%);
+.skills-content {
+  padding: 60px;
+  width: 75%;
+  background: linear-gradient(-30deg, rgba(255,255,255,0.8) 0%, rgba(238,238,238,1) 25%, rgba(238,238,238,1) 50%, rgba(238,238,238,1) 75%, rgba(255,255,255,0.8) 100%);
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  h4 {
+    margin: 0 auto 12px;
   }
-
-  .skills-list {
-    display: flex;
-    justify-content: space-between;
+  div {
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 8px;
   }
-
-  .skills-subsection {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    h4 {
-      margin: 0 auto 12px;
-    }
-    div {
-      display: flex !important;
-      align-items: center !important;
-      margin-bottom: 8px;
-    }
-    li {
-      list-style-type: none;
-    }
-    li:before {
-      font-family: 'FontAwesome';
-      content: '\f105';
-      margin:0 5px 0 -15px;
-      color: $dark-gray;
-    }
+  li {
+    list-style-type: none;
   }
-
-  .skill-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  li:before {
+    font-family: 'FontAwesome';
+    content: '\f105';
+    margin:0 5px 0 -15px;
+    color: $dark-gray;
+  }
+  &:nth-child(1) {
     img {
-      height: 70px;
-      margin-bottom: 12px;
+      // filter: invert(80%) sepia(60%) saturate(3000%) hue-rotate(183deg) brightness(85%) contrast(96%);
+    }
+  }
+  &:nth-child(2) {
+    img {
+      // filter: invert(77%) sepia(60%) saturate(2468%) hue-rotate(183deg) brightness(105%) contrast(90%);
+    }
+  }
+  &:nth-child(3) {
+    img {
+      // filter: invert(77%) sepia(60%) saturate(2300%) hue-rotate(183deg) brightness(115%) contrast(88%);
     }
   }
 }
 
-// Mobile Landscape + Tablet portrait (768px)
-@media (min-width: 640px) and (max-width: 1023px) {
-
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img {
+    height: 70px;
+    margin-bottom: 12px;
+  }
 }
-
-// Tablet landscape
-// @media (min-width: 1024px) {
-  .skills-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    padding: 100px;
-    // border-bottom: 7px dotted #F5F5F5;
-    h2 {
-      margin-bottom: 32px;
-    }
-  }
-
-  .skills-content {
-    padding: 60px;
-    width: 75%;
-    background: linear-gradient(-30deg, rgba(255,255,255,0.8) 0%, rgba(238,238,238,1) 25%, rgba(238,238,238,1) 50%, rgba(238,238,238,1) 75%, rgba(255,255,255,0.8) 100%);
-  }
-
-  .skills-list {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .skills-subsection {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    h4 {
-      margin: 0 auto 12px;
-    }
-    div {
-      display: flex !important;
-      align-items: center !important;
-      margin-bottom: 8px;
-    }
-    li {
-      list-style-type: none;
-    }
-    li:before {
-      font-family: 'FontAwesome';
-      content: '\f105';
-      margin:0 5px 0 -15px;
-      color: $dark-gray;
-    }
-  }
-
-  .skill-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    img {
-      height: 70px;
-      margin-bottom: 12px;
-    }
-  }
-// }
-
-// // Large screens
-// @media (min-width: 1200px) {
-
-// }
-
-

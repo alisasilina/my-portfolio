@@ -1,13 +1,10 @@
-// Tablet landscape
-@media (min-width: 1024px) {
-  .main-section {
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    img {
-      height: 90vh;
-    }
+.main-section {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  img {
+    height: 90vh;
   }
   .main-header {
     position: absolute;
@@ -30,34 +27,4 @@
       padding: 2px 10px;
     }
   }
-}
-
-// Mobile Portrait
-@media (max-width: 768px) {
-  .main-section {
-    img {
-      height: 60vh;
-      position: absolute;
-      bottom: 0;
-    }
-  }
-  .main-header {
-    left: 11%;
-    top: 10%;
-    h5 {
-      display: none;
-    }
-  }
-}
-
-// Mobile Landscape + Tablet portrait (768px)
-@media (min-width: 640px) and (max-width: 1023px) {
-
-}
-
-
-
-// Large screens
-@media (min-width: 1200px) {
-
 }
