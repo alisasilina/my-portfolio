@@ -435,14 +435,18 @@ div.highlightTextIn a:before
 
 @media (max-width: 768px) {
   #navbar {
-    padding: 16px 0 12px 0;
+    padding: 10px 0 6px 14px;
     background: #fafafa;
+    right: auto;
+    width: 100vw;
   }
 
   .nav-container {
     text-align: center;
     a {
       font-size: 18px;
+      margin: auto;
+      padding: 8px 25px;
     }
   }
   div.pullDown a:before {

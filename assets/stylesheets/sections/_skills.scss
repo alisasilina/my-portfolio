@@ -21,8 +21,10 @@
 
 .skills-list {
   display: flex;
-  flex-direction: row !important;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 8px;
 }
 
 .skills-subsection {
@@ -54,13 +56,6 @@
   }
 }
 
-.skills-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 8px;
-}
-
 .skills-sublist {
   display: flex;
   flex-direction: column;
@@ -74,11 +69,13 @@
     width: 100vw;
     padding: 40px;
     h2 {
-      padding-top: 70px;
+      padding-top: 68px;
+      font-size: 30px;
     }
   }
   .skills-list {
     justify-content: space-between;
+    flex-direction: column;
   }
   .skills-subsection {
     flex-direction: row;

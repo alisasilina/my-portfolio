@@ -6,46 +6,78 @@
   img {
     height: 90vh;
   }
-  .main-header {
-    position: absolute;
-    left: 49%;
-    top: 40%;
-    h1 {
-      font-size: 60px;
-      letter-spacing: 10px;
-      color: $dark-gray;
-      text-transform: uppercase;
-      font-weight: lighter;
-    }
-    h3 {
-      font-size: 28px;
-    }
-    h5 {
-      color: #fff;
-      background: $light-blue;
-      font-size: 16px;
-      padding: 2px 10px;
-    }
+}
+
+.main-header {
+  position: absolute;
+  left: 49%;
+  top: 40%;
+  h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: $dark-gray;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h5 {
+    color: #fff;
+    background: $light-blue;
+    font-size: 16px;
+    padding: 2px 10px;
   }
 }
 
 @media (max-width: 768px) {
   .main-section {
     img {
-      height: 62vh;
+      height: 65vh;
       position: absolute;
       bottom: 0;
-      right: -6px;
+      left: 0;
     }
   }
   .main-header {
-    left: 10% !important;
-    top: 12% !important;
+    left: 8%;
+    top: 12%;
+    h1 {
+      font-size: 58px;
+      line-height: 58px;
+    }
+    h3 {
+      font-size: 24px;
+    }
     h5 {
-      background: transparent !important;
-      color: $jeans-blue !important;
-      padding: 4px 0 !important;
-      width: 180px !important;
+      background: transparent;
+      color: $middle-blue;
+      padding: 4px 0;
+      width: 140px;
+      font-size: 18px;
     }
   }
 }
+
+// For Iphone X
+@media (max-width: 400px) and (max-height: 850px) {
+  .main-section {
+    top: 13%;
+    img {
+      height: 63vh;
+      left: -6px;
+    }
+  }
+
+  .main-header {
+    h1 {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    h3 {
+      // font-size: 26px;
+      margin-top: 22px;
+    }
+  }
+}
+//

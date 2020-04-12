@@ -395,13 +395,17 @@ div.highlightTextIn a:before {
 
 @media (max-width: 768px) {
   #navbar {
-    padding: 16px 0 12px 0;
-    background: #fafafa; }
+    padding: 10px 0 6px 14px;
+    background: #fafafa;
+    right: auto;
+    width: 100vw; }
 
   .nav-container {
     text-align: center; }
     .nav-container a {
-      font-size: 18px; }
+      font-size: 18px;
+      margin: auto;
+      padding: 8px 25px; }
 
   div.pullDown a:before {
     background: transparent; } }
@@ -485,7 +489,8 @@ div.highlightTextIn a:before {
   color: white;
   background: #81CEDB;
   border-radius: 10px;
-  padding: 8px 24px; }
+  padding: 8px 24px;
+  margin-top: 24px; }
   .cv i {
     margin-right: 6px;
     font-size: 22px; }
@@ -498,14 +503,16 @@ div.highlightTextIn a:before {
   .about-section p {
     width: 100%;
     margin: 0;
-    margin-bottom: 32px; }
+    margin-bottom: 20px; }
+  .about-section h2 {
+    font-size: 30px; }
   .about-section h2:nth-child(1) {
-    padding-top: 70px; }
+    padding-top: 68px; }
   .about-section h2:nth-child(2) {
     margin-bottom: 18px; }
 
   .about-content {
-    padding: 24px 42px;
+    padding: 24px 22px;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -523,7 +530,10 @@ div.highlightTextIn a:before {
     .tasks h4 {
       font-size: 18px; }
     .tasks img {
-      width: 70px; } }
+      width: 70px; }
+
+  .cv {
+    margin-top: 12px; } }
 .portfolio-section h2:nth-child(1) {
   text-align: center;
   margin-bottom: 42px;
@@ -566,7 +576,8 @@ div.highlightTextIn a:before {
   display: flex;
   top: 0;
   right: 12px;
-  align-items: center; }
+  align-items: center;
+  color: #1f6491; }
   .lang img {
     height: 24px;
     width: 24px;
@@ -575,6 +586,33 @@ div.highlightTextIn a:before {
     font-size: 18px;
     margin: 0; }
 
+@media (max-width: 768px) {
+  .portfolio-section h2:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 24px;
+    padding-top: 96px; }
+
+  .portfolio-element .mockup {
+    width: 97%;
+    margin-left: 4px; }
+
+  .potfolio-element-header {
+    display: flex;
+    flex-direction: column;
+    position: unset; }
+
+  .lang {
+    position: unset;
+    margin-top: 6px; }
+    .lang img {
+      height: 22px;
+      width: 22px; }
+
+  .portfolio-element-description {
+    background: transparent; } }
+@media (max-width: 400px) and (max-height: 850px) {
+  .portfolio-element {
+    margin-bottom: 40px; } }
 .skills-section {
   display: flex;
   flex-direction: column;
@@ -594,8 +632,10 @@ div.highlightTextIn a:before {
 
 .skills-list {
   display: flex;
-  flex-direction: row !important;
-  justify-content: space-between; }
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 8px; }
 
 .skills-subsection {
   display: flex;
@@ -620,12 +660,6 @@ div.highlightTextIn a:before {
     height: 70px;
     margin-bottom: 12px; }
 
-.skills-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 8px; }
-
 .skills-sublist {
   display: flex;
   flex-direction: column;
@@ -638,10 +672,12 @@ div.highlightTextIn a:before {
     width: 100vw;
     padding: 40px; }
     .skills-content h2 {
-      padding-top: 70px; }
+      padding-top: 68px;
+      font-size: 30px; }
 
   .skills-list {
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-direction: column; }
 
   .skills-subsection {
     flex-direction: row;
@@ -665,39 +701,58 @@ div.highlightTextIn a:before {
   position: relative; }
   .main-section img {
     height: 90vh; }
-  .main-section .main-header {
-    position: absolute;
-    left: 49%;
-    top: 40%; }
-    .main-section .main-header h1 {
-      font-size: 60px;
-      letter-spacing: 10px;
-      color: #9e9e9e;
-      text-transform: uppercase;
-      font-weight: lighter; }
-    .main-section .main-header h3 {
-      font-size: 28px; }
-    .main-section .main-header h5 {
-      color: #fff;
-      background: #79c6e0;
-      font-size: 16px;
-      padding: 2px 10px; }
+
+.main-header {
+  position: absolute;
+  left: 49%;
+  top: 40%; }
+  .main-header h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    font-weight: lighter; }
+  .main-header h3 {
+    font-size: 28px; }
+  .main-header h5 {
+    color: #fff;
+    background: #79c6e0;
+    font-size: 16px;
+    padding: 2px 10px; }
 
 @media (max-width: 768px) {
   .main-section img {
-    height: 62vh;
+    height: 65vh;
     position: absolute;
     bottom: 0;
-    right: -6px; }
+    left: 0; }
 
   .main-header {
-    left: 10% !important;
-    top: 12% !important; }
+    left: 8%;
+    top: 12%; }
+    .main-header h1 {
+      font-size: 58px;
+      line-height: 58px; }
+    .main-header h3 {
+      font-size: 24px; }
     .main-header h5 {
-      background: transparent !important;
-      color: #BBCCE7 !important;
-      padding: 4px 0 !important;
-      width: 180px !important; } }
+      background: transparent;
+      color: #5ab3d3;
+      padding: 4px 0;
+      width: 140px;
+      font-size: 18px; } }
+@media (max-width: 400px) and (max-height: 850px) {
+  .main-section {
+    top: 13%; }
+    .main-section img {
+      height: 63vh;
+      left: -6px; }
+
+  .main-header h1 {
+    font-size: 60px;
+    line-height: 60px; }
+  .main-header h3 {
+    margin-top: 22px; } }
 .contact-section {
   height: 100vh;
   display: flex;
@@ -752,6 +807,18 @@ div.highlightTextIn a:before {
   .submit-btn:hover {
     background: #5ab3d3; }
 
+.textarea {
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .contact-section h2 {
+    font-size: 30px;
+    padding-top: 60px; }
+
+  .contact-form {
+    width: 95%; }
+    .contact-form div label {
+      width: 100%; } }
 * {
   margin: 0;
   padding: 0;
