@@ -813,7 +813,7 @@ div.highlightTextIn a:before {
 @media (max-width: 768px) {
   .contact-section h2 {
     font-size: 30px;
-    padding-top: 60px; }
+    padding-top: 18px; }
 
   .contact-form {
     width: 95%; }
