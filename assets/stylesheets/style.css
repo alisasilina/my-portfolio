@@ -404,8 +404,8 @@ div.highlightTextIn a:before {
     text-align: center; }
     .nav-container a {
       font-size: 18px;
-      margin: inherit !important;
-      padding: 0 20px !important; }
+      margin: auto;
+      padding: 0; }
 
   div.pullDown a:before {
     background: transparent; } }
