@@ -445,8 +445,8 @@ div.highlightTextIn a:before
     text-align: center;
     a {
       font-size: 18px;
-      margin: auto;
-      padding: 8px 20px;
+      margin: inherit !important;
+      padding: 0 20px !important;
     }
   }
   div.pullDown a:before {
