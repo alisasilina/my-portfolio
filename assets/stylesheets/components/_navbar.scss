@@ -435,10 +435,18 @@ div.highlightTextIn a:before
 
 @media (max-width: 768px) {
   #navbar {
-    padding: 10px 0 6px 14px;
     background: #fafafa;
     right: auto;
     width: 100vw;
+    padding: 0;
+  }
+
+  .navbar-list {
+    width: 70%;
+    display: block;
+    justify-content: center;
+    padding: 10px 0 6px;
+    margin: auto;
   }
 
   .nav-container {
@@ -446,7 +454,7 @@ div.highlightTextIn a:before
     a {
       font-size: 18px;
       margin: auto;
-      padding: 0;
+      padding: 6px 14px;
     }
   }
   div.pullDown a:before {
