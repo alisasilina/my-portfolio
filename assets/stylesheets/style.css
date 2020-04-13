@@ -744,17 +744,18 @@ div.highlightTextIn a:before {
 
   .main-header {
     left: 8%;
-    top: 12%; }
+    top: 11.5%; }
     .main-header h1 {
       font-size: 58px;
       line-height: 58px; }
     .main-header h3 {
-      font-size: 24px; }
+      font-size: 24px;
+      margin-top: 10px; }
     .main-header h5 {
       background: transparent;
       color: #5ab3d3;
-      padding: 4px 0;
-      width: 140px;
+      padding: 0;
+      width: 150px;
       font-size: 18px; } }
 @media (max-width: 400px) and (max-height: 850px) {
   .main-section {
@@ -767,7 +768,7 @@ div.highlightTextIn a:before {
     font-size: 60px;
     line-height: 60px; }
   .main-header h3 {
-    margin-top: 22px; } }
+    margin-top: 18px; } }
 .contact-section {
   height: 100vh;
   display: flex;
