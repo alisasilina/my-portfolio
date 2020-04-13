@@ -470,7 +470,8 @@ div.highlightTextIn a:before {
   .about-section h2 {
     margin-bottom: 16px; }
   .about-section p {
-    width: 600px;
+    text-align: justify;
+    width: 587px;
     margin: auto;
     margin-bottom: 32px; }
 
