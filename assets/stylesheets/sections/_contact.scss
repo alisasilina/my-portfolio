@@ -73,7 +73,7 @@
   .contact-section {
     h2 {
       font-size: 30px;
-      padding-top: 18px;
+      // padding-top: 18px;
     }
   }
   .contact-form {
@@ -82,6 +82,16 @@
       label {
         width: 100%;
       }
+    }
+  }
+}
+
+// For Iphone X
+@media (max-width: 400px) and (max-height: 850px) {
+  .contact-section {
+    h2 {
+      padding-top: 0;
+      margin-top: -32px;
     }
   }
 }
