@@ -82,3 +82,20 @@
   }
 }
 //
+
+    /* iPhone 6 Portrait */
+@media (width: 375px) {
+  .main-header {
+    background: yellow;
+    h3 {
+      margin-top: 4px !important;
+    }
+    h5 {
+      font-size: 17px !important;
+    }
+  }
+}
+
+    /* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+}
