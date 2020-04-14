@@ -769,6 +769,13 @@ div.highlightTextIn a:before {
     line-height: 60px; }
   .main-header h3 {
     margin-top: 18px; } }
+/* iPhone 6 Portrait */
+@media (width: 375px) {
+  .main-header h3 {
+    margin-top: 4px; }
+  .main-header h5 {
+    font-size: 17px; } }
+/* iPhone 6 landscape */
 .contact-section {
   height: 100vh;
   display: flex;
