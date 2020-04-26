@@ -480,6 +480,9 @@ div.highlightTextIn a:before {
   padding: 42px 50px;
   background: linear-gradient(-30deg, rgba(255, 255, 255, 0.8) 0%, #eeeeee 25%, #eeeeee 50%, #eeeeee 75%, rgba(255, 255, 255, 0.8) 100%); }
 
+.tasks-container {
+  margin-top: 28px; }
+
 .tasks {
   display: flex;
   margin: auto;
@@ -494,10 +497,9 @@ div.highlightTextIn a:before {
 .cv {
   font-size: 18px;
   color: white;
-  background: #81CEDB;
+  background: #79c6e0;
   border-radius: 10px;
-  padding: 8px 24px;
-  margin-top: 24px; }
+  padding: 8px 24px; }
   .cv i {
     margin-right: 6px;
     font-size: 22px; }
@@ -516,7 +518,8 @@ div.highlightTextIn a:before {
   .about-section h2:nth-child(1) {
     padding-top: 68px; }
   .about-section h2:nth-child(2) {
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    margin-top: 0; }
 
   .about-content {
     padding: 24px 22px;
@@ -540,7 +543,7 @@ div.highlightTextIn a:before {
       width: 70px; }
 
   .cv {
-    margin-top: 12px; } }
+    margin-top: 4px; } }
 @media (max-width: 400px) and (max-height: 850px) {
   .about-section h2:nth-child(1) {
     padding-top: 0;

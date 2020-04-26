@@ -8,6 +8,7 @@
   h2 {
     margin-bottom: 16px;
   }
+
   p {
     text-align: justify;
     width: 587px;
@@ -20,6 +21,10 @@
   border-radius: 9px;
   padding: 42px 50px;
   background: linear-gradient(-30deg, rgba(255,255,255,0.8) 0%, rgba(238,238,238,1) 25%, rgba(238,238,238,1) 50%, rgba(238,238,238,1) 75%, rgba(255,255,255,0.8) 100%);
+}
+
+.tasks-container {
+  margin-top: 28px;
 }
 
 .tasks {
@@ -39,10 +44,9 @@
 .cv {
   font-size: 18px;
   color: white;
-  background: $blue;
+  background: $light-blue;
   border-radius: 10px;
   padding: 8px 24px;
-  margin-top: 24px;
   i {
     margin-right: 6px;
     font-size: 22px;
@@ -69,6 +73,7 @@
     }
     h2:nth-child(2) {
       margin-bottom: 18px;
+      margin-top: 0;
     }
   }
   .about-content {
@@ -96,7 +101,7 @@
     }
   }
   .cv {
-    margin-top: 12px;
+    margin-top: 4px;
   }
 }
 
